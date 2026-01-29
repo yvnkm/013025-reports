@@ -59,10 +59,14 @@
 - [x] Develop WGS Market Winning Strategy <!-- id: 18 -->
     - [x] Synthesize "3-Pillar" Strategy (Differentiation, Consolidation, Safety)
     - [x] Result: Verified WES correlation (0.98) but confirmed Panels (20% error) are the real competitor.
-- [ ] Initialize Git Repository <!-- id: 19 -->
-    - [ ] Run git init in artifact directory
-    - [ ] Commit all reports and scripts
-    - [ ] (Optional) Push to remote if provided
+- [x] Initialize Git Repository <!-- id: 19 -->
+    - [x] Run git init in artifact directory
+    - [x] Commit all reports and scripts
+    - [x] (Optional) Push to remote if provided
+- [ ] Generate Appendix: WGS vs WES TMB Nuance <!-- id: 20 -->
+    - [ ] Create detailed explanation of the "98% Correlation"
+    - [ ] Position Panels as the true competitor
+    - [ ] Commit and Push to Git
 - [x] Refine Report 1: HRD Methodologies <!-- id: 7 -->
     - [x] Introduction: Add cancer indications (Ovarian, Breast, Prostate, Pancreatic)
     - [x] Panel: Add toy example of SNP inference and scoring
