@@ -86,11 +86,15 @@
     - [x] Calculate 60x COGS vs Panel COGS
     - [x] Update Appendix 4 with 60x Scenarios
     - [x] Commit and Push to Git
-- [ ] Define Data Monetization Strategy <!-- id: 25 -->
-    - [ ] Articulate "Trial Matching" value (Hospital Rev.)
-    - [ ] Articulate "Data Licensing" value (Pharma Rev.)
-    - [ ] Articulate "Re-analysis" value (Subscription Rev.)
-    - [ ] Generate Appendix 5: Monetizing the Genome
+- [x] Define Data Monetization Strategy <!-- id: 25 -->
+    - [x] Articulate "Trial Matching" value (Hospital Rev.)
+    - [x] Articulate "Data Licensing" value (Pharma Rev.)
+    - [x] Articulate "Re-analysis" value (Subscription Rev.)
+    - [x] Generate Appendix 5: Monetizing the Genome
+    - [x] Commit and Push to Git
+- [ ] Organize Repository Structure <!-- id: 26 -->
+    - [ ] Create 'reports' directory
+    - [ ] Move all report_*.md files to 'reports/'
     - [ ] Commit and Push to Git
 - [x] Refine Report 1: HRD Methodologies <!-- id: 7 -->
     - [x] Introduction: Add cancer indications (Ovarian, Breast, Prostate, Pancreatic)
