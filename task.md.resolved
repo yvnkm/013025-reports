@@ -64,13 +64,19 @@
     - [x] Commit all reports and scripts
     - [x] (Optional) Push to remote if provided
 - [ ] Generate Appendix: WGS vs WES TMB Nuance <!-- id: 20 -->
-    - [ ] Create detailed explanation of the "98% Correlation"
+    - [x] Create detailed explanation of the "98% Correlation"
     - [x] Position Panels as the true competitor
     - [x] Commit and Push to Git
+    - [x] Rename to "Appendix 1" for consistent numbering
 - [x] Generate Appendix 2: MSI Drug & CDx Landscape <!-- id: 21 -->
     - [x] Detail Drugs (Keytruda, Jemperli)
     - [x] Detail Competition (Foundation, Promega)
     - [x] Commit and Push to Git
+- [ ] Benchmark Caris Reimbursement Strategy <!-- id: 22 -->
+    - [ ] Research Caris CPT/PLA codes (0244U, 0329U?)
+    - [ ] Investigate ADLT status and "Market Rate" ruling
+    - [ ] Generate Appendix 3: Caris $8,000 Roadmap
+    - [ ] Commit and Push to Git
 - [x] Refine Report 1: HRD Methodologies <!-- id: 7 -->
     - [x] Introduction: Add cancer indications (Ovarian, Breast, Prostate, Pancreatic)
     - [x] Panel: Add toy example of SNP inference and scoring
