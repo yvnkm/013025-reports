@@ -1,0 +1,115 @@
+# Report 5: CDx Company Landscape
+
+## 1. Executive Summary
+This report summarizes the major Companion Diagnostic (CDx) manufacturers identified in the OncoKB FDA-approved dataset.
+It maps each company's devices to the specific Drug-Indication pairs they are approved to identify.
+
+---
+
+## 2. Foundation Medicine, Inc.
+**Dominance:** The clear market leader for NGS-based CDx, covering the widest range of solid tumors and therapies.
+
+### Device: FoundationOne CDx (F1CDx)
+*   **Solid Tumors (General):**
+    *   **Larotrectinib / Entrectinib:** NTRK1/2/3 Fusions
+    *   **Pembrolizumab:** MSI-High (MSI-H), TMB-High (TMB-H)
+    *   **Selpercatinib:** RET Fusions
+*   **Non-Small Cell Lung Cancer (NSCLC):**
+    *   **Osimertinib:** EGFR Exon 19 del, L858R, T790M
+    *   **Alectinib / Crizotinib / Ceritinib:** ALK Fusions
+    *   **Capmatinib:** MET Exon 14 skipping
+    *   **Dabrafenib + Trametinib:** BRAF V600E
+*   **Prostate Cancer:**
+    *   **Olaparib:** BRCA1/2, ATM, CDK12, CHEK1/2, PALB2, and other HRR genes.
+*   **Breast Cancer:**
+    *   **Alpelisib:** PIK3CA Mutations
+    *   **Trastuzumab:** ERBB2 (HER2) Amplification
+*   **Ovarian Cancer:**
+    *   **Olaparib:** BRCA1/2
+*   **Melanoma:**
+    *   **Dabrafenib + Trametinib:** BRAF V600E/K
+
+### Device: FoundationOne Liquid CDx (Liquid Biopsy)
+Used when tissue is unavailable, covering a subset of the tissue assay's indications.
+*   **NSCLC:** EGFR (Exon 19/20/L858R/T790M), ALK, MET, ROS1, BRAF
+*   **Prostate:** BRCA1/2, ATM (Olaparib, Rucaparib)
+*   **Breast:** PIK3CA (Alpelisib)
+*   **Colorectal:** BRAF V600E (Encorafenib)
+
+---
+
+## 3. Roche Molecular Systems, Inc. / Life Technologies
+**Focus:** Specific single-gene PCR assays and the OncoKB Dx NGS panel.
+
+### Device: cobas EGFR Mutation Test v2 (Roche)
+*   **NSCLC:** EGFR Exon 19 del, L858R, T790M (Osimertinib, Erlotinib, Gefitinib)
+
+### Device: cobas KRAS Mutation Test (Roche)
+*   **Colorectal Cancer:** KRAS Wildtype confirmation (Cetuximab, Panitumumab)
+
+### Device: cobas 4800 BRAF V600 Mutation Test (Roche)
+*   **Melanoma:** BRAF V600E (Vemurafenib + Cobimetinib)
+
+### Device: OncoKB Dx Target Test (Life Technologies/Thermo Fisher)
+*   **NSCLC:** BRAF V600E, EGFR Exon 20 ins, RET Fusions, ROS1 Fusions
+*   **Thyroid:** RET Mutations/Fusions
+*   **Cholangiocarcinoma:** IDH1 Mutations
+*   **Glioma:** IDH1/2 Mutations (Vorasidenib)
+
+---
+
+## 4. QIAGEN
+**Focus:** "therascreen" PCR kits, dominant in KRAS/EGFR/PIK3CA/FGFR.
+
+### Device: therascreen KRAS RGQ PCR Kit
+*   **NSCLC:** KRAS G12C (Sotorasib, Adagrasib)
+*   **Colorectal:** KRAS G12C (Sotorasib + Panitumumab)
+*   **Colorectal:** KRAS Wildtype confirmation (Cetuximab/Panitumumab)
+
+### Device: therascreen PIK3CA RGQ PCR Kit
+*   **Breast Cancer:** PIK3CA Mutations (Alpelisib, Capivasertib)
+
+### Device: therascreen EGFR RGQ PCR Kit
+*   **NSCLC:** EGFR Common Mutations (Afatinib, Gefitinib)
+
+### Device: therascreen FGFR RGQ RT-PCR Kit
+*   **Bladder Cancer:** FGFR3 Mutations (Erdafitinib)
+
+---
+
+## 5. Myriad Genetic Laboratories, Inc.
+**Focus:** Homologous Recombination Deficiency (HRD) and BRCA.
+
+### Device: BRACAnalysis CDx
+*   **Ovarian Cancer:** BRCA1/2 (Olaparib, Rucaparib)
+*   **Prostate Cancer:** BRCA1/2 (Olaparib)
+*   **Breast Cancer:** BRCA1/2 (Olaparib)
+*   **Pancreatic Cancer:** BRCA1/2 (Olaparib)
+
+### Device: Myriad myChoice CDx
+*   **Ovarian Cancer:** BRCA1/2 + Genomic Instability Score (HRD)
+    *   **Drugs:** Olaparib + Bevacizumab, Niraparib
+
+---
+
+## 6. Guardant Health, Inc.
+**Focus:** Liquid Biopsy leader alongside Foundation Medicine.
+
+### Device: Guardant360 CDx
+*   **NSCLC:**
+    *   **Osimertinib:** EGFR Exon 19/L858R/T790M
+    *   **Amivantamab:** EGFR Exon 20 Insertions
+    *   **Sotorasib:** KRAS G12C
+    *   **Trastuzumab Deruxtecan:** ERBB2 (HER2) Mutations
+*   **Breast Cancer:** ESR1 Mutations (Elacestrant)
+
+---
+
+## 7. Other Notable Players
+
+*   **Abbott Molecular:** FISH probes for **ALK** (NSCLC) and **HER2** (Breast). Also PCR for **IDH1/2** (AML).
+*   **Agilent / Dako:** IHC/FISH kits for **PD-L1** (not gene level) and **HER2**.
+*   **Caris Life Sciences:** "MI Cancer Seek" (NGS) approved for **BRAF** (Colorectal/Melanoma), **KRAS/NRAS** (Colorectal), and **PIK3CA** (Breast).
+*   **Illumina:** "TruSight Oncology Comprehensive" (NGS kitted solution) approved for **NTRK** (Solid Tumors) and **RET** (NSCLC).
+*   **Invivoscribe:** "LeukoStrat CDx" is the gold standard for **FLT3** mutation testing in **AML**.
+*   **BioMérieux:** "THXID BRAF Kit" for **BRAF** in Melanoma.

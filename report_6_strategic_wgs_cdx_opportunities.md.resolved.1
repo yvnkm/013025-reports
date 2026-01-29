@@ -1,0 +1,78 @@
+# Report 6: Strategic Opportunities for WGS-based CDx
+
+## 1. Executive Summary
+This strategy report identifies the highest-value Indications for a new Whole Genome Sequencing (WGS) product.
+The recommendation is based on **Unmet Clinical Needs** identified in our OncoKB analysis (where CDx coverage is 0%) and the **Intrinsic Strengths of WGS** (Structural Variants, Copy Number, and Genome-wide Scarring).
+
+### Top 3 Recommended Focus Areas:
+1.  **"Fusion Hunter" (Tissue Agnostic):** Targeting rare, cryptic fusions (NTRK, NRG1, FGFR) where panels fail.
+2.  **"Universal HRD" (Ovarian/Prostate/Pancreatic):** Replacing proprietary panel scores with a superior genome-wide scar analysis.
+3.  **"One-Stop Heme" (Leukemias):** Replacing the Cytogenetics + FISH + Panel triad with a single WGS assay.
+
+---
+
+## 2. Opportunity A: The "Fusion Hunter" (Tissue Agnostic)
+**The Gap:** 32 FDA-approved Fusion indications (e.g., NTRK, NRG1, FGFR) currently lack a specific CDx kit in the OncoKB dataset.
+**Why Patterns Fail:** Panels only cover "known" breakpoints or "suspected" partners. Intronic breakpoints (NTRK3) are massive (>50kb) and often missed by DNA amplicon panels.
+**Why WGS Wins:**
+*   **Intronic Coverage:** WGS covers the entire intron, ensuring no breakpoint is missed.
+*   **Novel Partners:** Detects fusions promiscuously regardless of the partner gene (unlike panels requiring specific probes).
+*   **Structural Resolution:** Can distinguish between functional fusions and complex rearrangements.
+
+**Target Indications:**
+*   **NTRK1/2/3:** Tissue-agnostic (Larotrectinib/Entrectinib). *High value, hard to detect.*
+*   **NRG1 Fusions:** Pancreatic & Lung (Zenocutuzumab). *Massive introns, notoriously hard for panels.*
+*   **FGFR2/3 Fusions:** Cholangiocarcinoma & Bladder Cancer.
+
+---
+
+## 3. Opportunity B: "Universal HRD" (Ovarian, Prostate, Pancreatic)
+**The Gap:** Current CDx (Myriad myChoice) is a specific, proprietary microarray/panel assay.
+**Why panels are limited:** They rely on SNP backbones that may be sparse.
+**Why WGS Wins:**
+*   **Resolution:** Millions of SNPs for LOH analysis vs. thousands in panels.
+*   **Algorithm:** WGS can calculate LOH, TAI, and LST (the 3 components of HRD) with superior precision.
+*   **Mechanism Agnostic:** Can detect "HRD Signature" even if the causative BRCA mutation is epigenetic or cryptic.
+
+**Target Indications:**
+*   **Ovarian Cancer:** First-line maintenance (PARPi).
+*   **Prostate Cancer:** Metastatic Castration-Resistant (mCRPC).
+*   **Pancreatic Cancer:** Platinum sensitivity prediction.
+
+---
+
+## 4. Opportunity C: "One-Stop Heme" (Leukemias)
+**The Gap:** Our analysis showed **0% CDx coverage** for B-cell ALL, CML, and APL.
+**Current Standard:** A fragmented workflow of **Karyotyping** (whole genome low res), **FISH** (targeted SVs), and **Panel** (SNVs like FLT3).
+**Why WGS Wins:**
+*   **Replacement Strategy:** A single WGS test can technically replace Karyotype (CNVs/SVs) + FISH (Fusions) + Panels (SNVs).
+*   **Speed:** One workflow instead of three sequential tests.
+
+**Target Indications:**
+*   **Acute Myeloid Leukemia (AML):** Complex Karyotype is a key prognostic marker.
+*   **B-Lymphoblastic Leukemia (ALL):** Driven by structural variants (BCR-ABL1, ETV6-RUNX1).
+*   **Multiple Myeloma:** Highly complex structural landscape suitable for WGS.
+
+---
+
+## 5. Opportunity D: The "True TMB" (Precision Play)
+**The Status Quo:** TMB-High (>=10 mut/Mb) is an FDA-approved biomarker for Pembrolizumab in all solid tumors. Use is dominated by **FoundationOne CDx**.
+**The Technical Flaw:** Panel-based TMB is an **extrapolation**.
+*   F1CDx measures ~0.8 Mb of the genome.
+*   To get "Mutations per Megabase", it multiplies the found count.
+*   **The Sampling Error:** At the critical decision point (10 mut/Mb), panels have high variance. A patient with true TMB of 9 could read as 12 (False Positive) or vice versa.
+
+**Why WGS Wins (Clinical Validity):**
+*   **Real Counting vs. Guessing:** WGS measures the actual mutation load across 3,000 Mb (or the full ~30-50 Mb exome coding region) rather than extrapolating from a small slice.
+*   **Lower Concordance Variance:** WGS provides the definitive TMB score, reducing "gray zone" misclassifications that deny patients therapy or cause unnecessary treatment.
+
+---
+
+## 6. Summary Recommendation
+
+| Priority | Strategy | Primary Targets | Key Selling Point |
+| :--- | :--- | :--- | :--- |
+| **1** | **Fusion Hunter** | NTRK, NRG1, FGFR (Pan-Cancer) | "Don't miss the patient that panels failed." |
+| **2** | **One-Stop Heme** | AML, ALL, CML | "Replace Karyotype + FISH with one test." |
+| **3** | **Next-Gen HRD** | Ovarian, Prostate | "More precise than the 10-year old standard." |
+| **4** | **True TMB** | Pan-Cancer (Immunotherapy) | "Eliminate the 'gray zone' of panel estimates." |

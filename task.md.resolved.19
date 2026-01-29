@@ -1,0 +1,51 @@
+# Cancer Detection Research Task List
+
+- [x] Create Implementation Plan <!-- id: 0 -->
+- [x] Research HRD score calculation methodologies (Panel, WES, WGS) <!-- id: 1 -->
+    - [x] Identify calculation methods for each platform
+    - [x] Determine limitations for each platform
+    - [x] Find standard cutoffs for HRD positive/negative
+- [x] Research CMS/Reimbursement metrics for CGP <!-- id: 2 -->
+    - [x] Identify Analytical Validity metrics
+    - [x] Identify Clinical Validity metrics
+    - [x] Identify Clinical Utility requirements
+    - [x] Identify Clinical Utility requirements
+    - [x] Determine data acquisition methods and timelines
+    - [x] Research Clinical Utility strategies of Foundation, Guardant, Caris (PMA, NCD 90.2)
+- [x] Refine Report 2: CGP Reimbursement Metrics <!-- id: 8 -->
+    - [x] Explain PPA (Sensitivity) & NPA (Specificity) formulas (Numerator/Denominator)
+    - [x] Explain LoD determination via Serial Dilution
+    - [x] Convert Report 2 to DOCX
+- [x] Research Genomic Drug Prescription without CDx <!-- id: 3 -->
+    - [x] Investigate LDT CGP usage
+    - [x] Investigate PCR requirements
+    - [x] Identify safety protocols and prescription pathways
+- [x] Generate Report 1: HRD Score Methodologies <!-- id: 4 -->
+- [x] Generate Report 2: CGP Reimbursement Metrics <!-- id: 5 -->
+- [x] Generate Report 3: Genomic Drug Prescription Pathways <!-- id: 6 -->
+- [x] Analyze OncoKB Actionable Genes <!-- id: 9 -->
+    - [x] Load and inspect CSV data
+    - [x] Calculate CDx vs No-CDx counts for Level 1 (FDA)
+    - [x] Identify Cancer Types with highest/lowest CDx coverage
+    - [x] Identify Drugs/Indications lacking CDx
+    - [x] Generate Report 4: OncoKB CDx Analysis
+- [x] Analyze CDx Company Landscape <!-- id: 10 -->
+    - [x] Map Companies to Devices and Indications
+    - [x] Generate Report 5: CDx Company Landscape
+- [x] Develop WGS CDx Strategy <!-- id: 11 -->
+    - [x] Synthesize "No-CDx" gaps with WGS strengths
+    - [x] Analyze TMB as a strategic opportunity
+    - [x] Generate Report 6: Strategic Opportunities for WGS CDx
+- [x] Refine Report 1: HRD Methodologies <!-- id: 7 -->
+    - [x] Introduction: Add cancer indications (Ovarian, Breast, Prostate, Pancreatic)
+    - [x] Panel: Add toy example of SNP inference and scoring
+    - [x] WES: Explain off-target % and CNV -> HRD link
+    - [x] Panel: Add TAI and LST toy examples & Myriad scoring details
+    - [x] Panel: Add TAI and LST toy examples & Myriad scoring details
+    - [x] WES: Add toy example of off-target read binning for CNV -> HRD
+    - [x] Panel: Add TAI and LST toy examples & Myriad scoring details
+    - [x] WES: Add toy example of off-target read binning for CNV -> HRD
+    - [x] Introduction: Explain genomic events caused by HRD (DSBs, Error-Prone Repair)
+    - [x] Introduction: Explain genomic events caused by HRD (DSBs, Error-Prone Repair)
+    - [x] WGS: Explain probability score calculation (Classifier vs Fraction)
+    - [x] Appendix: Detailed explanation of Microhomology Scar formation

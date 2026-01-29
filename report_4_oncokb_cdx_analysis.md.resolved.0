@@ -1,0 +1,82 @@
+# Report 4: OncoKB FDA-Approved CDx Analysis
+
+## 1. Executive Summary
+This report analyzes the **Level 1 (FDA-Approved)** therapeutic indications from the OncoKB database to determine the current state of Companion Diagnostic (CDx) coverage.
+
+*   **Total FDA-Approved Indications Analyzed:** 203
+*   **Indications WITH CDx:** 110 (54.2%)
+*   **Indications WITHOUT CDx:** 93 (45.8%)
+
+**Key Finding:** Approximately **46%** of FDA-approved targeted therapy indications listed in OncoKB do *not* have a specific Companion Diagnostic explicitly listed as "Yes". This often includes older therapies (e.g., Imatinib) or newer combinations where the safety/efficacy was established without a mandated contemporary CDx for every sub-indication.
+
+---
+
+## 2. Cancer Types: CDx Coverage Champions vs. Gaps
+
+### Top Cancer Types by CDx Coverage (Rich in CDx)
+Solid tumors with high prevalence and established targeted therapies have the highest CDx integration.
+
+| Cancer Type | Total Indications | With CDx | % Covered |
+| :--- | :--- | :--- | :--- |
+| **Melanoma** | 7 | 7 | **100.0%** |
+| **Non-Small Cell Lung Cancer (NSCLC)** | 37 | 28 | **75.7%** |
+| **All Solid Tumors** (Tissue Agnostic) | 12 | 9 | **75.0%** |
+| **Colorectal Cancer** | 14 | 10 | **71.4%** |
+| **Prostate Cancer** | 32 | 20 | **62.5%** |
+| **Breast Cancer** | 19 | 10 | **52.6%** |
+
+### Cancer Types Lacking CDx (The "CDx Desert")
+These cancers have FDA-approved targeted therapies but often rely on standard-of-care testing (LDTs) rather than specific FDA-approved CDx kits listed in this dataset.
+
+| Cancer Type | Total Indications | With CDx | Notes |
+| :--- | :--- | :--- | :--- |
+| **B-Lymphoblastic Leukemia/Lymphoma** | 5 | **0** | Often treated with TKIs (e.g., Imatinib) based on cytogenetics/FISH without newer NGS CDx. |
+| **Esophagogastric Adenocarcinoma** | 3 | **0** | HER2 agents often used, but specific OncoKB entries may lack CDx link. |
+| **Pediatric-Type Diffuse High-Grade Glioma** | 3 | **0** | Rare indications often lack commercial CDx kits. |
+| **APL with PML-RARA** | 3 | **0** | Diagnosis is cytogenetic/FISH standard, not commercial kit based. |
+| **Thyroid Cancer** | 2 | **0** | |
+
+---
+
+## 3. Drug Analysis: Which Drugs Have Mandated CDx?
+
+### Top Drugs with High CDx Coverage
+Newer targeted therapies, especially PARP inhibitors and specific kinase inhibitors, are almost always approved with a CDx.
+
+| Drug | Total Indications | With CDx | % Covered |
+| :--- | :--- | :--- | :--- |
+| **Olaparib** (PARP Inhibitor) | 16 | 16 | **100%** |
+| **Rucaparib** (PARP Inhibitor) | 4 | 4 | **100%** |
+| **Afatinib** (EGFR TKI) | 4 | 4 | **100%** |
+| **Entrectinib** (NTRK/ROS1) | 4 | 4 | **100%** |
+| **Sotorasib** (KRAS G12C) | 2 | 2 | **100%** |
+
+### Top Drugs Lacking CDx Links
+These drugs are FDA-approved but may not have a specific commercial CDx listed in the database for all their indications.
+
+| Drug | Total Indications | No CDx | Possible Reason |
+| :--- | :--- | :--- | :--- |
+| **Talazoparib + Enzalutamide** | 12 | **12** | Recent combination approvals may rely on broad class effects or LDTs. |
+| **Imatinib** (Gleevec) | 7 | 6 | Older "gold standard" drug; approved before modern CDx era (uses cytogenetics). |
+| **Revumenib** | 4 | 4 | |
+| **Repotrectinib** | 4 | 4 | |
+| **Dordaviprone** | 3 | 3 | |
+
+---
+
+## 4. Specific Examples of Indications Without CDx
+
+Below is a sample of specific Gene-Drug-Cancer combinations where `has_companion_dx` is "No".
+
+| Gene | Alteration | Cancer Type | Drug |
+| :--- | :--- | :--- | :--- |
+| **ABL1** | BCR-ABL1 Fusion | B-Lymphoblastic Leukemia/Lymphoma | Dasatinib, Imatinib, Ponatinib |
+| **ABL1** | BCR-ABL1 Fusion | Chronic Myelogenous Leukemia | Asciminib, Bosutinib, Imatinib |
+| **ABL1** | T315I | CML / B-ALL | Any 3rd gen TKI (Ponatinib) |
+| **AKT1** | E17K | Breast Cancer | Capivasertib + Fulvestrant |
+| **ALK** | Fusions | Anaplastic Large-Cell Lymphoma | Crizotinib |
+
+## 5. Conclusion
+*   **High CDx Adoption:** In **Lung, Melanoma, and Colorectal** cancer, CDx is the norm (70-100%).
+*   **Low CDx Adoption:** In **Leukemias (blood cancers)** and rare tumors, therapies often rely on standard clinical pathology (karyotyping, FISH) rather than commercial "CDx Kits," resulting in a "No" for CDx status in this database.
+*   **Drug Age Factor:** Older blockbuster drugs like Imatinib have low CDx rates compared to modern PARP inhibitors (Olaparib) which are 100% coupled with diagnostics.
