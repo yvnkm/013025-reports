@@ -1,4 +1,4 @@
-# Appendix: The "98% Nuance" (WGS vs. WES for TMB)
+# Appendix 1: The "98% Nuance" (WGS vs. WES for TMB)
 
 ## 1. The "98%" Figure
 *   **What it means:** The *correlation* coefficient between WES and WGS is **~0.98**. This means they track very closely.

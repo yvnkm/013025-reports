@@ -67,10 +67,10 @@
     - [ ] Create detailed explanation of the "98% Correlation"
     - [x] Position Panels as the true competitor
     - [x] Commit and Push to Git
-- [ ] Generate Appendix 2: MSI Drug & CDx Landscape <!-- id: 21 -->
-    - [ ] Detail Drugs (Keytruda, Jemperli)
-    - [ ] Detail Competition (Foundation, Promega)
-    - [ ] Commit and Push to Git
+- [x] Generate Appendix 2: MSI Drug & CDx Landscape <!-- id: 21 -->
+    - [x] Detail Drugs (Keytruda, Jemperli)
+    - [x] Detail Competition (Foundation, Promega)
+    - [x] Commit and Push to Git
 - [x] Refine Report 1: HRD Methodologies <!-- id: 7 -->
     - [x] Introduction: Add cancer indications (Ovarian, Breast, Prostate, Pancreatic)
     - [x] Panel: Add toy example of SNP inference and scoring
