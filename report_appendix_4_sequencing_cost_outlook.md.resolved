@@ -25,6 +25,19 @@ WGS has **Zero** Capture Probes and **Zero** Capture Labor.
 *   WGS is "Machine Heavy" (Just dump DNA into the sequencer).
 *   *As sequencing costs drop (Moore's Law), WGS becomes cheaper because machines get cheaper faster than human labor.*
 
-## 3. Strategic Outlook
-We are approaching the **"Indifference Point"**: The moment where it costs the *same* to sequence the whole genome as it does to buy a panel kit.
-Once we cross this line (~$150/genome), there is **no economic reason** to run a Panel ever again.
+## 4. The 60x "Somatic" Reality
+You asked: *"Is it still cheaper if I run 60x (Somatic Standard) instead of 30x?"*
+**Answer:** Yes, but the margin is tighter. It depends heavily on the sequencer.
+
+### The Math (60x WGS = ~200 Gb)
+*   **Panel COGS (Fixed):** **~$400** (Labor + Probes + Extraction).
+    *   *Note: Panel cost is labor-dominated, so it doesn't get much cheaper.*
+
+*   **60x WGS COGS (Variable):**
+    *   **On NovaSeq X ($2.50/Gb):** $500 seq + $50 prep = **$550** (More expensive than Panel).
+    *   **On Element ($2.00/Gb):** $400 seq + $50 prep = **$450** (Comparable).
+    *   **On Ultima ($1.00/Gb):** $200 seq + $50 prep = **$250** (**Cheaper than Panel**).
+
+### Strategic Takeaway
+At **60x**, WGS beats Panels purely on price **ONLY IF** you use the new ultra-low-cost sequencers (Ultima).
+If you use legacy machines (NovaSeq 6000), 60x WGS is still ~2x more expensive than a panel. This is why **technology choice** is critical for your winning strategy.
